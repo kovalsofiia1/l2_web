@@ -27,8 +27,8 @@ h1 {
   text-align: end;
 }
 .page {
-  width: 100%; /* Set the table width to 100% of its container */
-  table-layout: auto; /* Use a fixed layout to control column widths */
+  width: 100%;
+  table-layout: auto;
 }
 table {
   border-collapse: collapse;
@@ -67,23 +67,28 @@ td {
 }
 .page-header,
 .page-footer {
+  position: relative;
   height: 30%;
-  padding: 6% 0;
   background-color: rgb(127, 224, 244);
 }
 .page-header th,
 .page-footer th {
-  padding: 3% 0;
+  padding: 5% 0;
 }
 .page-footer h3,
 .page-header h1 {
-  margin-right: 5%;
+  /* margin-right: 5%; */
   margin-left: auto;
-  display: flex;
-  justify-content: end;
   color: aliceblue;
   font-size: 30px;
   text-align: end;
+  position: absolute;
+  top: 50%;
+  right: -3%;
+  transform: translate(-50%, -50%);
+}
+.page-footer h3 {
+  right: -8%;
 }
 .left-sidebar h2 {
   color: rgb(16, 94, 58);
