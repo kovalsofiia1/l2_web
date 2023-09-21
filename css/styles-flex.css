@@ -1,7 +1,7 @@
 body {
   height: 100%;
   font-family: "Raleway", sans-serif;
-  max-width: 1158px;
+  /* max-width: 1158px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -84,12 +84,14 @@ aside h2 {
   margin-left: 30px;
   margin-bottom: 20px;
 }
-aside ol {
+aside ol,
+aside ul {
   color: rgb(16, 94, 58);
   margin-top: 30px;
   margin-bottom: 20px;
 }
-aside ol a {
+aside ol a,
+aside ul a {
   color: rgb(16, 94, 58);
   text-decoration: none;
   cursor: pointer;
